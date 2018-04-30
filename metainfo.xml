@@ -1,40 +1,25 @@
-<?xml version="1.0"?>
-<presentation guid="0C1A3D55-E21E-45E3-8111-D26402089F6A" version="0" availableOffline="1">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="25768138-4780-4B78-AA4B-CA08ED4E554D" version="0">
 	<info>
-		<title>Neuropharmacology Noradrenergic Quiz</title>
+		<title>Noradrenergic</title>
 		<description/>
 	</info>
-	<files index="id21" thumbnail="id24" totalSize="1562201">
-		<file id="id0">data/fnt1.woff</file>
-		<file id="id1">data/fnt1.ttf</file>
-		<file id="id2">data/fnt2.woff</file>
-		<file id="id3">data/fnt2.ttf</file>
-		<file id="id4">data/fnt3.woff</file>
-		<file id="id5">data/fnt3.ttf</file>
-		<file id="id6">data/fnt4.woff</file>
-		<file id="id7">data/fnt4.ttf</file>
-		<file id="id8">data/fnt5.woff</file>
-		<file id="id9">data/fnt5.ttf</file>
-		<file id="id10">data/fnt6.woff</file>
-		<file id="id11">data/fnt6.ttf</file>
-		<file id="id12">data/fnt7.woff</file>
-		<file id="id13">data/fnt7.ttf</file>
-		<file id="id14">data/fnt8.woff</file>
-		<file id="id15">data/fnt8.ttf</file>
-		<file id="id16">data/fnt9.woff</file>
-		<file id="id17">data/fnt9.ttf</file>
-		<file id="id18">data/player.js</file>
-		<file id="id19">data/apple-touch-icon.png</file>
-		<file id="id20">data/favicon.ico</file>
-		<file id="id21">index.html</file>
-		<file id="id22">data/html5.png</file>
-		<file id="id23">data/html5-unsupported.html</file>
-		<file id="id24">data/ismplayer/preview.png</file>
-		<file id="id25">data/ismplayer/play.svg</file>
-		<file id="id26">data/ismplayer/style.css</file>
-		<file id="id27">data/ismplayer/style_mini.css</file>
-		<file id="id28">ismplayer.html</file>
-		<file id="id29">data/ismplayer/app_store2x.png</file>
-		<file id="id30">metainfo.xml</file>
+	<files index="id12" thumbnail="id8" totalSize="2169883">
+		<file id="id0">data/browsersupport.js</file>
+		<file id="id1">data/fonts/fnt0.woff</file>
+		<file id="id2">data/fonts/fnt1.woff</file>
+		<file id="id3">data/fonts/fnt2.woff</file>
+		<file id="id4">data/html5-unsupported.html</file>
+		<file id="id5">data/html5.png</file>
+		<file id="id6">data/ismplayer/app_store2x.png</file>
+		<file id="id7">data/ismplayer/play.svg</file>
+		<file id="id8">data/ismplayer/preview.png</file>
+		<file id="id9">data/ismplayer/style.css</file>
+		<file id="id10">data/ismplayer/style_mini.css</file>
+		<file id="id11">data/player.js</file>
+		<file id="id12">index.html</file>
+		<file id="id13">ismplayer.html</file>
+		<file id="id14">preview.png</file>
 	</files>
 </presentation>
+

@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-
+<!--{ISPRING_SDC_JAVA_SCRIPT}-->
 
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta name="format-detection" content="telephone=no"/>
 	<!-- <meta name="apple-itunes-app" content="app-id=642452385, app-argument="/> -->
-	<title>Neuropharmacology Noradrenergic Quiz</title>
+	<title>Noradrenergic</title>
 	<link rel="stylesheet" type="text/css" href="data/ismplayer/style.css"/>
 	<link rel="stylesheet" type="text/css" href="data/ismplayer/style_mini.css" media="only screen and (max-device-width: 605px), only screen and (max-device-height: 605px)" />
 </head>
@@ -44,7 +44,7 @@
 			<a class="btnPlay" id="btnPlay"></a>
 		</div>
 		<div class="info">
-			<h1>Neuropharmacology Noradrenergic Quiz</h1>
+			<h1>Noradrenergic</h1>
 			<p id="launchDesc">The quiz will be opened in iSpring Play.</p>
 			<p id="launchDescWithVideo">The presentation contains video narration. 
 To view with video, use iSpring Play.</p>
@@ -311,7 +311,38 @@ To view with video, use iSpring Play.</p>
 	$("btnOpenInBrowser").onclick = openInBrowserCallback;
 	$("btnOpenInBrowserWithoutVideo").onclick = openInBrowserCallback;
 
+function findConnector(win)
+{
+	var retries = 0;
+	while (!win.ispringQuizConnector && win.parent && win.parent != win)
+	{
+		++retries;
+		if (retries > 7)
+		{
+			return null;
+		}
 
+		win = win.parent;
+	}
+	return win.ispringQuizConnector;
+
+}
+
+function getConnector()
+{
+	var api = findConnector(window);
+	if (!api && window.opener && (typeof(window.opener) != "undefined"))
+	{
+		api = findConnector(window.opener);
+	}
+	return api;
+}
+
+var connector = getConnector();
+if (connector)
+{
+	connector.register();
+}
 
 </script>
 
